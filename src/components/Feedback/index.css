@@ -1,0 +1,62 @@
+.bg-container {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+  height: 60%;
+  width: 80%;
+  max-width: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  font-size: 42px;
+  text-align: center;
+  color: #0f172a;
+}
+.emoji-list-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0px;
+  width: 100%;
+  list-style-type: none;
+}
+.list-card {
+  padding: 5px;
+}
+.btn-style {
+  height: 100px;
+  width: 100%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.emoji-img {
+  height: 70px;
+  width: 70px;
+}
+.name-card {
+  font-size: 15px;
+}
+.text-card {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+  color: #1e293b;
+}
